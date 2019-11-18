@@ -1,0 +1,20 @@
+# first: ignore everything
+*
+
+# add a few folders and files that are present in (almost) every project
+!*/*.md
+!*/.gitignore
+!/.gitignore
+!/README.md
+
+# add files in root
+# files
+!/opencv4nodejs/
+# subfolders
+!/opencv4nodejs/cc/
+!/opencv4nodejs/ci/
+!/opencv4nodejs/data/
+!/opencv4nodejs/examples/
+!/opencv4nodejs/install/
+!/opencv4nodejs/lib/
+!/opencv4nodejs/test/
