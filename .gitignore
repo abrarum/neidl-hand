@@ -11,6 +11,8 @@
 # files
 !/opencv4nodejs/
 # subfolders
+!/doc/
+
 !/opencv4nodejs/cc/
 !/opencv4nodejs/ci/
 !/opencv4nodejs/data/
