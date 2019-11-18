@@ -136,11 +136,12 @@ grabFrames('../data/hand-gesture.mp4', delay, (frame) => {
 
   const result = resizedImg.copy();
   // draw bounding box and center line
-  resizedImg.drawContours(
-    [handContour],
-    blue,
-    { thickness: 2 }
-  );
+  // THIS CRASHED
+  // resizedImg.drawContours(
+  //   [handContour],
+  //   blue,
+  //   { thickness: 2 }
+  // );
 
   // draw points and vertices
   verticesWithValidAngle.forEach((v) => {
