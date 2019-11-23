@@ -6,6 +6,7 @@ Things that are required
 - Table
 - Linux PC
 - Monitor
+
 Things that we are optional:
 - Illumination, light bulbs...
 
