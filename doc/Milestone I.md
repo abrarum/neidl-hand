@@ -38,7 +38,9 @@ Things that we are optional:
 - OpenCV for hand separation
     - by skin colour
     - cascading
-- NN may be OpenCV or Tensorflow 
+- For classifying hands and count fingers
+    - OpenCV
+    - Tensorflow
 
 ## Training steps
 - OpenCV cascade
