@@ -12,7 +12,7 @@ Things that we are optional:
 
 ## Expected Problems
 - shadows might irritate the separation and classification process
-  - may be prevented using certain illumination setups
+  - may be prevented using predefined illumination setups
 
 ## Setup
 - Camera at a fixed position looking downwards at the table, and the hands
