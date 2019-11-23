@@ -14,14 +14,36 @@ Things that we are optional:
   - may be prevented using certain illumination setups
 
 ## Setup
-- Camera at a fixed position looking downwards at the table and the hands
+- Camera at a fixed position looking downwards at the table, and the hands
 - optional: specify where light bulbs are placed
 
 ## Proposed workflow of the system
 1. Capture video stream from camera
-2. Separate hands from background expoilting skin colour and contrasts
-  - This provides a binary mask of the hand areas
+2. Separate hands from background 
+    1. exploiting skin colour and contrasts
+        - This provides a binary mask of the hand areas
+    2. employing OpenCV cascading
+    - We will choose the better option once we get results or run both in parallel  
 3. Crop the hand areas
-4. Feed the cropped images to a neural network
-5. NN classifies whether it sees a hand
-6. NN counts fingers 
+4. Classify hand areas and counting fingers
+    1. Feed the cropped images to a neural network
+        - NN classifies whether it sees a hand
+        - NN counts fingers 
+    2. Using OpenCV facades
+7. Show output containing recorded image, hand regions, number of hands, number of fingers per hand
+
+## Software and libraries
+- Python as a base for input, control, dataflow, glueing all together
+- OpenCV for hand separation
+    - by skin colour
+    - cascading
+- NN may be OpenCV or Tensorflow 
+
+## Training steps
+- OpenCV cascade
+    - Finding hand regions
+    - count fingers
+- Tensorflow
+    - classify if hand or not
+    - count fingers
+
