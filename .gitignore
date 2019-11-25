@@ -6,6 +6,7 @@
 !*/.gitignore
 !/.gitignore
 !/README.md
+!/doc/timesheet.*
 
 # add files in root
 # files

@@ -1,0 +1,8 @@
+#date #hours spent #comment
+7.11.2019	2	reading papers
+12.11.2019	2	meet
+13.11.2019	4	testing library
+18.11	4	got lib to work
+20.11	4	opencv for node, python, java ... failed (getting camera to work requires recompiling opencv)
+22.11	4	literature (separate hands from background)
+23.11   2.5  meeting, writing milestone document
