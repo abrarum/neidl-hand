@@ -30,7 +30,7 @@ Things that are optional:
     1. Feed the cropped images to a neural network
         - NN classifies whether it sees a hand
         - NN counts fingers 
-    2. Using OpenCV facades
+    2. Using OpenCV cascades
 7. Show output containing recorded image, hand regions, number of hands, number of fingers per hand
 
 ## Proposed milestones
