@@ -7,7 +7,7 @@ Things that are required
 - Linux PC
 - Monitor
 
-Things that we are optional:
+Things that are optional:
 - Illumination, light bulbs...
 
 ## Expected Problems
@@ -32,6 +32,16 @@ Things that we are optional:
         - NN counts fingers 
     2. Using OpenCV facades
 7. Show output containing recorded image, hand regions, number of hands, number of fingers per hand
+
+## Proposed milestones
+1. find suitable light setting
+2. develop feature extraction
+    - hand separation (2x)
+    - hand and finger counting (2x)
+3. train the models
+4. plug everything together
+5. UI
+6. Evaluation
 
 ## Software and libraries
 - Python as a base for input, control, dataflow, glueing all together

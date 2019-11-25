@@ -1,14 +1,17 @@
-# hand recognition goes here
-opencv4nodejs cloned from [here](https://github.com/justadudewhohacks/opencv4nodejs)
+# Recognizing Hands and Fingers
 
-## Run?
-Open Intellij and open the `opencv4nodejs` folder. Run `npm install`.
-Right click `opencv4nodejs/examples/handGestureRecognition0.js` and then `DEBUG`.
-This creates a new run configuration. Open it.
+## Where is the documentation?
+[First milestone](doc/Milestone%20I.md)
 
-Make sure that the working directory points to `opencv4nodejs/examples/`.
+Other Documents (related papers, time sheets...) will be added to [this directory](doc) as well.
 
-Launch.
+## Things done so far:
+- found ways to separate hands from background
+- found a suitable framework to work with
+- can grab live video from camera
+- [look here for more](doc/Milestone%20I.md)
+
+
 
 ## Git ignores your file?
 This is a whitelist only `.gitignore` file. 
