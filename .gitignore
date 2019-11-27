@@ -1,13 +1,12 @@
 # This is a white list gitignore  helping you keeping local files out of the git while still remaining the central file controlling this behaviour.
 
 # first: ignore everything
-*
+/*
 
 # add a few folders and files that are present in (almost) every folder
-!*/*.md
+!*.md
 !*/.gitignore
 !/.gitignore
-!/README.md
 
 # add dirs
 !/00_Administration/
@@ -17,3 +16,5 @@
 !/04_Realisation/
 !/10_Presentations/
 !/11_Documentation/
+
+.gitkeep
