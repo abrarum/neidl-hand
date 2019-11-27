@@ -1,23 +1,19 @@
+# This is a white list gitignore  helping you keeping local files out of the git while still remaining the central file controlling this behaviour.
+
 # first: ignore everything
 *
 
-# add a few folders and files that are present in (almost) every project
+# add a few folders and files that are present in (almost) every folder
 !*/*.md
 !*/.gitignore
 !/.gitignore
 !/README.md
-!/doc/timesheet.*
 
-# add files in root
-# files
-!/opencv4nodejs/
-# subfolders
-!/doc/
-
-!/opencv4nodejs/cc/
-!/opencv4nodejs/ci/
-!/opencv4nodejs/data/
-!/opencv4nodejs/examples/
-!/opencv4nodejs/install/
-!/opencv4nodejs/lib/
-!/opencv4nodejs/test/
+# add dirs
+!/00_Administration/
+!/01_Literature_Review/
+!/02_Requirements/
+!/03_Concept/
+!/04_Realisation/
+!/10_Presentations/
+!/11_Documentation/
