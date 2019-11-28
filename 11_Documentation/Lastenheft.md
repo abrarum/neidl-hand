@@ -28,7 +28,7 @@ Non-Funktional:
 - Provides interface for the analyzing tools
 - Works on any skinn colour
 - Easy to use
-- Works on any System
+- Works on Linux systems with Python3
 
 
 ## Scope of delivery
