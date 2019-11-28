@@ -1,0 +1,9 @@
+Date,            Hours,         Topic,                           Details
+2019-10-28,      0.45,       Topic understanding,            initial meeting
+2019-11-02,      1hr,        Self Study,                     reading some blogs surfing internet for research over topic discussed
+2019-11-03,      3hr,        practical implementation,       coming up with implementation of a simple face recognition system using openCV and python
+2019-11-09,      2.5,        self Study,                     reading a bit about cascades and training in openCV 2hr
+2019-11-16,      2,          self Study,                     reading a few papers shared by fellow group members, understanding them and searchng around it
+2019-11-23,      1.5,        meeting,                        internal group members discussion on staurday at AES 22 lab on 3rd floor
+2019-11-24,      0.5         discussion,                     discussion with other university and class fellows that how we can efeciently achieve results using different filters of CV
+2019-11-28,      1hr         adding code to repo,            Added working code of openCV and Python for hand and face recognition in this repo.
